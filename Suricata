@@ -8,5 +8,5 @@
 alert http any any -> any any (msg:"🔫🔫📱  Its getting crazy here 🔥🔥 Stop BROWSING unsecured 🇱🇧"; http.uri; content:"httpforever.com"; reference:url,github.com/abousteif/suricata; sid:1000000; rev:1;)
 alert dns $HOME_NET any -> any any (msg:"🔫🔫🔫 📟  Its getting crazy here 🔥🔥 Stop RESOLVING unsecured DNS 🇱🇧"; dns_query; content:"httpforever.com"; reference:url,github.com/abousteif/suricata; sid:1000001; rev:1;)
 
-alert http any any -> any any (msg:"📺 Its getting crazy here 🔥🔥 IPTV "; http.uri; content:"luis52822.cdngold.me"; reference:url,github.com/abousteif/suricata; sid:1000000; rev:1;)
-alert http any any -> any any (msg:"📺 Its getting crazy here 🔥🔥 IPTV "; http.uri; content:"supachr.xyz"; reference:url,github.com/abousteif/suricata; sid:1000000; rev:1;)
+alert http any any -> any any (msg:"📺 📡Its getting crazy here 🔥🔥 IPTV "; http.uri; content:"luis52822.cdngold.me"; reference:url,github.com/abousteif/suricata; sid:1000000; rev:1;)
+alert http any any -> any any (msg:"📺 📡 📡Its getting crazy here 🔥🔥 IPTV "; http.uri; content:"supachr.xyz"; reference:url,github.com/abousteif/suricata; sid:1000000; rev:1;)
