@@ -9,4 +9,4 @@ eb1d94daa7e0344597e756a1fb6e7054	Intel::JA3	HOME_DNS	T	1111DNS
 https://www.tiktok.com/  Intel::URL	TRACKER	T	💩MALWARe🪠
 d8d0ba972d8365ce6f8605bbe2280088 Intel::FILE_HASH	CLUP T textfilemd5
 894a2eb3ffeeec6bebaf03f9df2ea8e24d9dac95 Intel::FILE_HASH	CLUP	T	textfilesha1
-sha256: 187b5af6cac341e913ea805ab472d738a1bd73e47fbc1c7c00db6e1a760368ca Intel::FILE_HASH CLUP T textfilesha256
+187b5af6cac341e913ea805ab472d738a1bd73e47fbc1c7c00db6e1a760368ca Intel::FILE_HASH CLUP T textfilesha256
