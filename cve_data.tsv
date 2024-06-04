@@ -1,2 +1,8 @@
 #fields ip  hostname  host_uid  machine_domain  os_version  source  cve_list
 192.168.249.43  Zeetest 4C4C-BLA-BLA-BLA  homedomain  MACOS CYBERCNS  CVE-2022-41953
+
+
+#fields  ip  hostname  uid  cid  criticality  machine_domain  os_version  source  cve_list
+192.168.249.43  ZeeWorkMAC  4C4C-BLA-BLA-BLA  CIDFILLIN SUPERHIGH homedomain MACOS Tenable.SC  CVE-1974-1234
+192.168.56.103  WEF       0bb70f50a9a3470dbc3e09bd6eb18fc4  e29b670f12d342e3bcc7170a288xxxx  Unassigned   windomain.local   Windows Server 2016  CrowdStrike  CVE-2022-26904,CVE-2022-34701,CVE-2020-0911,CVE-2022-24479
+192.168.56.104  WIN10     23fac76b0e5246f8b8ba22d1bbd6bc04  e29b670f12d342e3bcc7170a288xxxx  High         windomain.local   Windows 10           CrowdStrike  CVE-2022-23279,CVE-2020-1286,CVE-2021-33784,CVE-2022-23299,CVE-2020-1391
