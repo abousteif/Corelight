@@ -1,0 +1,2 @@
+#fields ip  hostname  host_uid  machine_domain  os_version  source  cve_list
+192.168.249.43  Zeetest 4C4C-BLA-BLA-BLA  homedomain  MACOS CYBERCNS  CVE-2022-41953
