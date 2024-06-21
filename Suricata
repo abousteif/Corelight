@@ -11,4 +11,4 @@ alert dns $HOME_NET any -> any any (msg:"🔫🔫🔫 📟  Its getting crazy he
 alert http any any -> any any (msg:"📺 📡Its getting crazy here 🔥🔥 IPTV "; http.uri; content:"luis52822.cdngold.me"; reference:url,github.com/abousteif/suricata; sid:1000002; rev:1;)
 alert http any any -> any any (msg:"📺 📡 📡Its getting crazy here 🔥🔥 IPTV "; http.uri; content:"supachr.xyz"; reference:url,github.com/abousteif/suricata; sid:1000003; rev:1;)
 alert http any any -> any any (msg:"📺 📡 📡Its getting crazy here 🔥🔥 8k IPTV "; http.uri; content:"petite61360.cdngold.me"; reference:url,github.com/abousteif/suricata; sid:1000004; rev:1;)
-alert http $HOME_NET any -> $EXTERNAL_NET any (msg:" 📺 📡 📡 request to petite61360.cdngold.me 🔥🔥 8k IPTV"; flow:established,to_server; content:"Host: petite61360.cdngold.me"; http_header; reference:url,github.com/abousteif/suricata; sid:1000005; rev:1;)
+alert http any any -> any any (msg:" 📺 📡 📡 request to petite61360.cdngold.me 🔥🔥 8k IPTV"; flow:established,to_server; content:"Host: petite61360.cdngold.me"; http_header; reference:url,github.com/abousteif/suricata; sid:1000005; rev:1;)
