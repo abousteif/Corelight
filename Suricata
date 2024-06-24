@@ -12,3 +12,4 @@ alert http any any -> any any (msg:"📺 📡Its getting crazy here 🔥🔥 IPT
 alert http any any -> any any (msg:"📺 📡 📡Its getting crazy here 🔥🔥 IPTV "; http.uri; content:"supachr.xyz"; reference:url,github.com/abousteif/suricata; sid:1000003; rev:1;)
 alert http any any -> any any (msg:"📺 📡 📡Its getting crazy here 🔥🔥 8k IPTV "; http.uri; content:"petite61360.cdngold.me"; reference:url,github.com/abousteif/suricata; sid:1000004; rev:1;)
 alert http any any -> any any (msg:" 📺 📡 📡 request to petite61360.cdngold.me 🔥🔥 8k IPTV"; flow:established,to_server; content:"Host: petite61360.cdngold.me"; http_header; reference:url,github.com/abousteif/suricata; sid:1000005; rev:1;)
+alert http any any -> any any (msg:" 📺 📡 📡 request to http://supachr.xyz/ 🔥🔥 gold IPTV"; flow:established,to_server; content:"Host: supachr.xyz"; http_header; reference:url,github.com/abousteif/suricata; sid:1000006; rev:1;)
